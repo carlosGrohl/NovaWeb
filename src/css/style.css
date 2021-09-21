@@ -62,7 +62,7 @@ section {
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.625;
   color: #212529;
@@ -16341,52 +16341,52 @@ strong {
 }
 @media (min-width: 992px) {
   .fs-lg-1 {
-    font-size: 0.75rem ;
+    font-size: 0.75em ;
   }
   .lh-lg-1 {
     line-height: 0.75rem ;
   }
   .fs-lg-2 {
-    font-size: 0.8125rem ;
+    font-size: 0.8125em ;
   }
   .lh-lg-2 {
     line-height: 0.8125rem ;
   }
   .fs-lg-3 {
-    font-size: 0.875rem ;
+    font-size: 0.875em ;
   }
   .lh-lg-3 {
     line-height: 0.875rem ;
   }
   .fs-lg-4 {
-    font-size: 1rem ;
+    font-size: 1em ;
   }
   .lh-lg-4 {
     line-height: 1rem ;
   }
   .fs-lg-5 {
-    font-size: 1.125rem ;
+    font-size: 1.125em ;
   }
   .lh-lg-5 {
     line-height: 1.125rem ;
   }
   .fs-lg-6 {
-    font-size: 1.5rem ;
+    font-size: 1.5em ;
   }
   .lh-lg-6 {
     line-height: 1.5rem ;
   }
   .fs-lg-7 {
-    font-size: 1.875rem ;
+    font-size: 1.875em ;
   }
   .lh-lg-7 {
     line-height: 1.875rem ;
   }
   .fs-lg-8 {
-    font-size: 2.25rem ;
+    font-size: 2.25em ;
   }
   .lh-lg-8 {
-    line-height: 2.25rem ;
+    line-height: 2.25em ;
   }
   .fs-lg-9 {
     font-size: 2.5em ;
