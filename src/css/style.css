@@ -4435,6 +4435,7 @@ input[type="submit"].btn-block {
   flex: 1 1 auto;
   min-height: 1px;
   padding: 1.25rem;
+  font-size: 1em;
 }
 
 .card-title {
@@ -16101,61 +16102,61 @@ strong {
   font-weight: 700;
 }
 .fs-1 {
-  font-size: 0.75rem ;
+  font-size: 0.75em ;
 }
 .lh-1 {
   line-height: 0.75rem ;
 }
 .fs-2 {
-  font-size: 0.8125rem ;
+  font-size: 0.8125em ;
 }
 .lh-2 {
   line-height: 0.8125rem ;
 }
 .fs-3 {
-  font-size: 0.875rem ;
+  font-size: 0.875em ;
 }
 .lh-3 {
   line-height: 0.875rem ;
 }
 .fs-4 {
-  font-size: 1rem ;
+  font-size: 1em ;
 }
 .lh-4 {
   line-height: 1rem ;
 }
 .fs-5 {
-  font-size: 1.125rem ;
+  font-size: 1.125em ;
 }
 .lh-5 {
   line-height: 1.125rem ;
 }
 .fs-6 {
-  font-size: 1.5rem ;
+  font-size: 1.5em ;
 }
 .lh-6 {
   line-height: 1.5rem ;
 }
 .fs-7 {
-  font-size: 1.875rem ;
+  font-size: 1.875em ;
 }
 .lh-7 {
   line-height: 1.875rem ;
 }
 .fs-8 {
-  font-size: 2.25rem ;
+  font-size: 2.25em ;
 }
 .lh-8 {
-  line-height: 2.25rem ;
+  line-height: 2.25em ;
 }
 .fs-9 {
-  font-size: 2.5rem ;
+  font-size: 2.5em ;
 }
 .lh-9 {
   line-height: 2.5rem ;
 }
 .fs-10 {
-  font-size: 3.125rem ;
+  font-size: 3em ;
 }
 .lh-10 {
   line-height: 3.125rem ;
@@ -16388,19 +16389,20 @@ strong {
     line-height: 2.25rem ;
   }
   .fs-lg-9 {
-    font-size: 2.5rem ;
+    font-size: 2.5em ;
   }
   .lh-lg-9 {
-    line-height: 2.5rem ;
+    line-height: 2.5em ;
   }
   .fs-lg-10 {
-    font-size: 3.125rem ;
+    font-size: 3em ;
   }
   .lh-lg-10 {
-    line-height: 3.125rem ;
+    line-height: 3.12rem ;
   }
   .fs-lg-11 {
-    font-size: 4.375rem ;
+    font-size: 4em ;
+    /* font-size: calc(1em + 1vw); */
   }
   .lh-lg-11 {
     line-height: 4.375rem ;
