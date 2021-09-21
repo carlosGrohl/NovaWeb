@@ -495,8 +495,6 @@ pre code {
 }
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -3984,7 +3982,7 @@ input[type="submit"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 2.25rem 1rem;
+  padding: 1rem 1rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4389,8 +4387,23 @@ input[type="submit"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  width: 300px;
+  max-width: 300px;
+  min-width: 150px;
 }
+.container-card{
+  width: 300px;
+  height: 300px;
+}
+.img-card{
+  size: cover;
+
+}
+
+/* ------------ */
+
+
+/* ------------ */
+
 .card-large {
   position: relative;
   display: -ms-flexbox;
@@ -4480,7 +4493,10 @@ input[type="submit"].btn-block {
 .card-img-top {
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  width: 100%;
+  max-width: 300px;
+  min-width: 150;
+  max-height: 200px;
+  
 }
 .card-deck .card {
   margin-bottom: 15px;
@@ -18152,14 +18168,14 @@ a.footer-icon {
 }
 a.footer-icon i,
 a.footer-icon > .material-icons {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 a.footer-icon:hover {
   color: #838f9b;
 }
 a.footer-brand {
   font-family: Roboto, sans-serif;
-  font-size: 1.875rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #212529;
   text-decoration: none;
@@ -18678,7 +18694,7 @@ a.footer-brand {
   margin: 5px 5px;
 }
 .material-icons.material-icons-size-auto {
-  font-size: 1em;
+  font-size: 1.5rem;
 }
 .jarallax {
   position: relative;
@@ -18711,12 +18727,12 @@ a.footer-brand {
 }
 @media (min-width: 576px) {
   .section {
-    padding: 5rem 5rem;
+    padding: 1rem 1rem;
   }
 }
 @media (min-width: 992px) {
   .section {
-    padding: 6.25rem 6.25rem;
+    padding: 5rem 5rem;
   }
 }
 .section-background-color,
@@ -18871,10 +18887,10 @@ body.page-scrolled .header-fixed {
 .brand-icon {
   display: -ms-inline-flexbox;
   display: inline-flex;
-  width: 1em;
-  height: 1em;
+  width: 1.5rem;
+  height: 1.5rem;
   vertical-align: middle;
-  font-size: 1.5rem;
+  font-size: 5.5rem;
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: center;
@@ -20381,7 +20397,7 @@ body.page-scrolled .header-fixed {
   color: #000;
 }
 .big-quote-footer {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   color: #9b9b9b;
   font-size: 1.125rem;
   font-weight: 400;
